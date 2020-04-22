@@ -1,0 +1,23 @@
+extends layout
+
+block content
+	h1 Welcome to GSPCON
+	if pageData.isAuthenticated
+		p
+			a(href='/logout') Logout
+			if pageData.user.type == "teacher"
+				p 
+					a(href='/teacher') Teacher
+			else
+				p 
+					a(href='/pupil') Pupil
+					if pageData.user.admin 
+						p 
+							a(href='/admin') Admin
+	else
+		p
+			a(href='/register') Register
+		p
+			a(href='/login') Login
+
+

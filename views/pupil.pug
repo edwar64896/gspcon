@@ -1,0 +1,14 @@
+extends layout
+
+block content
+
+  h1= title
+  p Welcome to #{title} page
+  label(for='username') Username
+  input#username(type='text',placeholder='Username')
+  button#registerbtn Register
+  button#startbtn Start
+  video#video_local(autoplay)
+  video#video_remote(autoplay)
+
+  script(src='/js/main.js')

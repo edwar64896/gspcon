@@ -1,0 +1,11 @@
+extends layout
+
+block content
+
+  h1= title
+  p Welcome to #{title} page for #{username}
+  button#startbtn Start
+  video#video_local(autoplay)
+  video#video_remote(autoplay)
+
+  script(src='/js/main.js')
