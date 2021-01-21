@@ -25,7 +25,7 @@
     "pug": "^2.0.4",
     "rebridge": "^2.3.1",
     "redis": "^3.0.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "utf-8-validate": "^5.0.2",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
