@@ -16,7 +16,7 @@
     "http-errors": "^1.6.3",
     "kurento-client": "^6.13.0",
     "kurento-utils": "^6.13.1",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "morgan": "~1.9.1",
     "passport": "^0.4.1",
     "passport-google-oauth": "^2.0.0",
